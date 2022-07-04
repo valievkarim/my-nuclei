@@ -7,10 +7,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/projectdiscovery/fastdialer/fastdialer"
 	"github.com/projectdiscovery/iputil"
 	"github.com/projectdiscovery/stringsutil"
 	"github.com/projectdiscovery/urlutil"
+	"github.com/valievkarim/my-nuclei/v2/pkg/fastdialer/fastdialer"
 )
 
 var (

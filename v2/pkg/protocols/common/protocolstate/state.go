@@ -2,8 +2,9 @@ package protocolstate
 
 import (
 	"github.com/pkg/errors"
+	"github.com/valievkarim/my-nuclei/v2/pkg/fastdialer/fastdialer"
 
-	"github.com/projectdiscovery/fastdialer/fastdialer"
+	//"github.com/projectdiscovery/fastdialer/fastdialer"
 	"github.com/valievkarim/my-nuclei/v2/pkg/types"
 )
 

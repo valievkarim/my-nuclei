@@ -5,8 +5,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/projectdiscovery/fastdialer/fastdialer"
 	"github.com/projectdiscovery/fileutil"
+	"github.com/valievkarim/my-nuclei/v2/pkg/fastdialer/fastdialer"
 	"github.com/valievkarim/my-nuclei/v2/pkg/operators"
 	"github.com/valievkarim/my-nuclei/v2/pkg/protocols"
 	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/expressions"

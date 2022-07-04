@@ -16,8 +16,8 @@ import (
 	"github.com/gobwas/ws/wsutil"
 	"github.com/pkg/errors"
 
-	"github.com/projectdiscovery/fastdialer/fastdialer"
 	"github.com/projectdiscovery/gologger"
+	"github.com/valievkarim/my-nuclei/v2/pkg/fastdialer/fastdialer"
 	"github.com/valievkarim/my-nuclei/v2/pkg/operators"
 	"github.com/valievkarim/my-nuclei/v2/pkg/operators/extractors"
 	"github.com/valievkarim/my-nuclei/v2/pkg/operators/matchers"

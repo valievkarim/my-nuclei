@@ -1,7 +1,7 @@
 package networkclientpool
 
 import (
-	"github.com/projectdiscovery/fastdialer/fastdialer"
+	"github.com/valievkarim/my-nuclei/v2/pkg/fastdialer/fastdialer"
 	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/protocolstate"
 	"github.com/valievkarim/my-nuclei/v2/pkg/types"
 )
