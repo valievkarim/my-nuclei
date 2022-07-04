@@ -6,10 +6,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators/extractors"
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators/matchers"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/generators"
 	"github.com/projectdiscovery/sliceutil"
+	"github.com/valievkarim/my-nuclei/v2/pkg/operators/extractors"
+	"github.com/valievkarim/my-nuclei/v2/pkg/operators/matchers"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/generators"
 )
 
 // Operators contains the operators that can be applied on protocols

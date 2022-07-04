@@ -18,13 +18,13 @@ import (
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/interactsh/pkg/client"
 	"github.com/projectdiscovery/interactsh/pkg/server"
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/progress"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/helpers/responsehighlighter"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/helpers/writer"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting"
 	"github.com/projectdiscovery/retryablehttp-go"
+	"github.com/valievkarim/my-nuclei/v2/pkg/operators"
+	"github.com/valievkarim/my-nuclei/v2/pkg/output"
+	"github.com/valievkarim/my-nuclei/v2/pkg/progress"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/helpers/responsehighlighter"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/helpers/writer"
+	"github.com/valievkarim/my-nuclei/v2/pkg/reporting"
 )
 
 // Client is a wrapped client for interactsh server.
@@ -58,7 +58,7 @@ var (
 
 const (
 	stopAtFirstMatchAttribute = "stop-at-first-match"
-	templateIdAttribute = "template-id"
+	templateIdAttribute       = "template-id"
 )
 
 // Options contains configuration options for interactsh nuclei integration.

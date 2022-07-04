@@ -6,17 +6,17 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/multierr"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model/types/stringslice"
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting/dedupe"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting/exporters/es"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting/exporters/markdown"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting/exporters/sarif"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting/trackers/github"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting/trackers/gitlab"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting/trackers/jira"
 	"github.com/projectdiscovery/retryablehttp-go"
+	"github.com/valievkarim/my-nuclei/v2/pkg/model/types/severity"
+	"github.com/valievkarim/my-nuclei/v2/pkg/model/types/stringslice"
+	"github.com/valievkarim/my-nuclei/v2/pkg/output"
+	"github.com/valievkarim/my-nuclei/v2/pkg/reporting/dedupe"
+	"github.com/valievkarim/my-nuclei/v2/pkg/reporting/exporters/es"
+	"github.com/valievkarim/my-nuclei/v2/pkg/reporting/exporters/markdown"
+	"github.com/valievkarim/my-nuclei/v2/pkg/reporting/exporters/sarif"
+	"github.com/valievkarim/my-nuclei/v2/pkg/reporting/trackers/github"
+	"github.com/valievkarim/my-nuclei/v2/pkg/reporting/trackers/gitlab"
+	"github.com/valievkarim/my-nuclei/v2/pkg/reporting/trackers/jira"
 )
 
 // Options is a configuration file for nuclei reporting module
@@ -48,8 +48,8 @@ type Filter struct {
 }
 
 const (
-	reportingClientCreationErrorMessage  = "could not create reporting client"
-	exportClientCreationErrorMessage = "could not create exporting client"
+	reportingClientCreationErrorMessage = "could not create reporting client"
+	exportClientCreationErrorMessage    = "could not create exporting client"
 )
 
 // GetMatch returns true if a filter matches result event

@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/catalog/config"
 	"github.com/rs/xid"
+	"github.com/valievkarim/my-nuclei/v2/pkg/catalog/config"
 )
 
 // Default resume file

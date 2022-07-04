@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/Knetic/govaluate"
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators/common/dsl"
 	"github.com/stretchr/testify/require"
+	"github.com/valievkarim/my-nuclei/v2/pkg/operators/common/dsl"
 )
 
 func TestWordANDCondition(t *testing.T) {

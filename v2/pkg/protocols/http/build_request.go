@@ -17,15 +17,15 @@ import (
 	"github.com/corpix/uarand"
 	"github.com/pkg/errors"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/expressions"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/replacer"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/dns"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/http/race"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/http/raw"
-	"github.com/projectdiscovery/nuclei/v2/pkg/types"
 	"github.com/projectdiscovery/rawhttp"
 	"github.com/projectdiscovery/retryablehttp-go"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/expressions"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/generators"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/replacer"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/dns"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/http/race"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/http/raw"
+	"github.com/valievkarim/my-nuclei/v2/pkg/types"
 )
 
 var (

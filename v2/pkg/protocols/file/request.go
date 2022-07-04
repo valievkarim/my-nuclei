@@ -14,14 +14,14 @@ import (
 	"github.com/remeh/sizedwaitgroup"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators/matchers"
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/helpers/eventcreator"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/helpers/responsehighlighter"
-	templateTypes "github.com/projectdiscovery/nuclei/v2/pkg/templates/types"
 	"github.com/projectdiscovery/sliceutil"
+	"github.com/valievkarim/my-nuclei/v2/pkg/operators"
+	"github.com/valievkarim/my-nuclei/v2/pkg/operators/matchers"
+	"github.com/valievkarim/my-nuclei/v2/pkg/output"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/helpers/eventcreator"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/helpers/responsehighlighter"
+	templateTypes "github.com/valievkarim/my-nuclei/v2/pkg/templates/types"
 )
 
 var _ protocols.Request = &Request{}

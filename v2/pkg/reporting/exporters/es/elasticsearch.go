@@ -13,9 +13,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/protocolstate"
 	"github.com/projectdiscovery/retryablehttp-go"
+	"github.com/valievkarim/my-nuclei/v2/pkg/output"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/protocolstate"
 )
 
 // Options contains necessary options required for elasticsearch communication

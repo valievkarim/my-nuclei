@@ -5,9 +5,9 @@ import (
 
 	"github.com/xanzy/go-gitlab"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting/format"
 	"github.com/projectdiscovery/retryablehttp-go"
+	"github.com/valievkarim/my-nuclei/v2/pkg/output"
+	"github.com/valievkarim/my-nuclei/v2/pkg/reporting/format"
 )
 
 // Integration is a client for an issue tracker integration

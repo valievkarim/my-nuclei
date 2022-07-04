@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/catalog/config"
+	"github.com/valievkarim/my-nuclei/v2/pkg/catalog/config"
 )
 
 const (

@@ -14,9 +14,9 @@ import (
 	"golang.org/x/text/encoding/simplifiedchinese"
 	"golang.org/x/text/transform"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/generators"
 	"github.com/projectdiscovery/rawhttp"
 	"github.com/projectdiscovery/stringsutil"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/generators"
 )
 
 type redirectedResponse struct {

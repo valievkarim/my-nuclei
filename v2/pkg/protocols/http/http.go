@@ -9,13 +9,13 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/projectdiscovery/fileutil"
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/expressions"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/http/httpclientpool"
 	"github.com/projectdiscovery/rawhttp"
 	"github.com/projectdiscovery/retryablehttp-go"
+	"github.com/valievkarim/my-nuclei/v2/pkg/operators"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/expressions"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/generators"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/http/httpclientpool"
 )
 
 // Request contains a http request to be made from a template

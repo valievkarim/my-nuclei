@@ -10,15 +10,15 @@ import (
 
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/iputil"
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/expressions"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/helpers/eventcreator"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/helpers/responsehighlighter"
-	templateTypes "github.com/projectdiscovery/nuclei/v2/pkg/templates/types"
-	"github.com/projectdiscovery/nuclei/v2/pkg/utils"
 	"github.com/projectdiscovery/retryabledns"
+	"github.com/valievkarim/my-nuclei/v2/pkg/output"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/expressions"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/generators"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/helpers/eventcreator"
+	"github.com/valievkarim/my-nuclei/v2/pkg/protocols/common/helpers/responsehighlighter"
+	templateTypes "github.com/valievkarim/my-nuclei/v2/pkg/templates/types"
+	"github.com/valievkarim/my-nuclei/v2/pkg/utils"
 )
 
 var _ protocols.Request = &Request{}
