@@ -245,3 +245,5 @@ require (
 	github.com/zmap/zcertificate v0.0.0-20180516150559-0e3d58b1bac4 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
+
+replace github.com/projectdiscovery/fastdialer => github.com/valievkarim/my-fastdialer v0.0.16-0.20220910215737-b2f76afa53fb
