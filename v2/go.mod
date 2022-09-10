@@ -177,3 +177,5 @@ require (
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6 // indirect
 	gopkg.in/corvus-ch/zbase32.v1 v1.0.0 // indirect
 )
+
+replace github.com/projectdiscovery/fastdialer => github.com/valievkarim/my-fastdialer v0.0.16-0.20220910215737-b2f76afa53fb
