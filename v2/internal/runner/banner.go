@@ -19,4 +19,5 @@ var banner = fmt.Sprintf(`
 func showBanner() {
 	gologger.Print().Msgf("%s\n", banner)
 	gologger.Print().Msgf("\t\tprojectdiscovery.io\n\n")
+	gologger.Print().Msgf("\t\t+my-nuclei patch v3\n\n")
 }

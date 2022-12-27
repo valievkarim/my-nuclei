@@ -246,4 +246,4 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
 
-replace github.com/projectdiscovery/fastdialer => github.com/valievkarim/my-fastdialer v0.0.16-0.20221018121939-e6644fd438ca
+replace github.com/projectdiscovery/fastdialer => github.com/valievkarim/my-fastdialer v0.0.17-0.20221227221132-f0044efc5c54
