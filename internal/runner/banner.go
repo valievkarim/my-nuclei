@@ -22,6 +22,7 @@ var banner = fmt.Sprintf(`
 func showBanner() {
 	gologger.Print().Msgf("%s\n", banner)
 	gologger.Print().Msgf("\t\tprojectdiscovery.io\n\n")
+        gologger.Print().Msgf("\t\t+my-nuclei patch my-nuclei-fix4\n\n")
 }
 
 // NucleiToolUpdateCallback updates nuclei binary/tool to latest version

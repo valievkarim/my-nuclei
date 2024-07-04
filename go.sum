@@ -833,8 +833,6 @@ github.com/projectdiscovery/clistats v0.0.20 h1:5jO5SLiRJ7f0nDV0ndBNmBeesbROouPo
 github.com/projectdiscovery/clistats v0.0.20/go.mod h1:GJ2av0KnOvK0AISQnP8hyDclYIji1LVkx2l0pwnzAu4=
 github.com/projectdiscovery/dsl v0.1.2 h1:RdWCEsUqyWsLIQ1k16NX5FiIVbPFvzx9BOlvzK7eeGw=
 github.com/projectdiscovery/dsl v0.1.2/go.mod h1:3zwogxGPnPkVUk5OfZQ9Y51sAWdazfQoVZFSPqeEUYA=
-github.com/projectdiscovery/fastdialer v0.1.4-0.20240611222741-427bffb2ea13 h1:mAehxpgxmvFrKcQ8taA3xQskp3gg6GayAgatTAn37bg=
-github.com/projectdiscovery/fastdialer v0.1.4-0.20240611222741-427bffb2ea13/go.mod h1:PcNscfCNrCnrkmvob90yfd+rNDMh6ZOIvRIl6HFPPXE=
 github.com/projectdiscovery/fasttemplate v0.0.2 h1:h2cISk5xDhlJEinlBQS6RRx0vOlOirB2y3Yu4PJzpiA=
 github.com/projectdiscovery/fasttemplate v0.0.2/go.mod h1:XYWWVMxnItd+r0GbjA1GCsUopMw1/XusuQxdyAIHMCw=
 github.com/projectdiscovery/freeport v0.0.5 h1:jnd3Oqsl4S8n0KuFkE5Hm8WGDP24ITBvmyw5pFTHS8Q=
@@ -1054,6 +1052,8 @@ github.com/ulikunitz/xz v0.5.12 h1:37Nm15o69RwBkXM0J6A5OlE67RZTfzUxTj8fB3dfcsc=
 github.com/ulikunitz/xz v0.5.12/go.mod h1:nbz6k7qbPmH4IRqmfOplQw/tblSgqTqBwxkY0oWt/14=
 github.com/urfave/cli v1.20.0/go.mod h1:70zkFmudgCuE/ngEzBv17Jvp/497gISqfk5gWijbERA=
 github.com/urfave/cli v1.22.1/go.mod h1:Gos4lmkARVdJ6EkW0WaNv/tZAAMe9V7XWyB60NtXRu0=
+github.com/valievkarim/my-fastdialer v0.0.17-0.20240704122105-3ff89857fbfd h1:t56E2PMQsE0NP5RVOPj7rIp7h4Ht1Yfi+fmIDM7CHII=
+github.com/valievkarim/my-fastdialer v0.0.17-0.20240704122105-3ff89857fbfd/go.mod h1:PcNscfCNrCnrkmvob90yfd+rNDMh6ZOIvRIl6HFPPXE=
 github.com/valyala/bytebufferpool v1.0.0 h1:GqA5TC/0021Y/b9FG4Oi9Mr3q7XYx6KllzawFIhcdPw=
 github.com/valyala/bytebufferpool v1.0.0/go.mod h1:6bBcMArwyJ5K/AmCkWv1jt77kVWyCJ6HpOuEn7z0Csc=
 github.com/valyala/fasttemplate v1.2.1/go.mod h1:KHLXt3tVN2HBp8eijSv/kGJopbvo7S+qRAEEKiv+SiQ=
